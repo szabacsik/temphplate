@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="<!-- %<description>% --><!-- %</description>% -->">
+    <meta name="author" content="<!-- %<author>% --><!-- %</author>% -->">
+    <meta name="keywords" content="<!-- %<keywords>% --><!-- %</keywords>% -->">
+    <title><!-- %<title>% --><!-- %</title>% --></title>
+    <link rel="icon" href="">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+        html { position: relative; min-height: 100%; }
+        body { margin-bottom: 60px; }
+        .footer { position: absolute; bottom: 0; width: 100%; height: 60px; background-color: #f5f5f5; border-top: solid 1px #c0c0c0; }
+        .footer-container { width: auto; padding: 0 15px; }
+        .footer-container .text-muted { margin: 20px 0; }
+        .block { margin: 0 0 30px 0; }
+        .hashtags { padding: 0; }
+        .hashtags li { list-style: none; display: inline; }
+        .teaser { font-size: 75%; color: #666666; }
+        .navbar-default { margin-bottom: 0; }
+    </style>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><!-- %<title>% --><!-- %</title>% --></a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <!-- %<menu>% -->
+                        <li <!-- %<li_attributes>% --><!-- %</li_attributes>% -->>
+                            <a <!-- %<a_attributes>% --><!-- %</a_attributes>% --> href="<!-- %<link>% --><!-- %</link>% -->"><!-- %<text>% --><!-- %</text>% --></a>
+                                <!-- %<submenu>% -->
+                                    <ul class="dropdown-menu">
+                                        <!-- %<items>% -->
+                                        <li <!-- %<li_attributes>% --><!-- %</li_attributes>% -->>
+                                            <a <!-- %<a_attributes>% --><!-- %</a_attributes>% --> href="<!-- %<link>% --><!-- %</link>% -->"><!-- %<text>% --><!-- %</text>% --></a>
+                                        </li>
+                                        <!-- %</items>% -->
+                                    </ul>
+                                <!-- %</submenu>% -->
+                        </li>
+                    <!-- %</menu>% -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-md-offset-5"><p class="lead"><!-- %<description>% --><!-- %</description>% --></p></div>
+            </div>
+        </div>
+    </div>
+</header>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 sidebar">
+                <!-- %<sidebars>% -->
+                    <div class="block">
+                        <h4><!-- %<title>% --><!-- %</title>% --></h4>
+                        <p><!-- %<content>% --><!-- %</content>% --></p>
+                    </div>
+                <!-- %</sidebars>% -->
+            </div>
+            <div class="col-md-9 content">
+                <!-- %<blocks>% -->
+                <div class="row">
+                    <div class="col-md-12 block">
+                        <h4><!-- %<title>% --><!-- %</title>% --></h4>
+                        <p class="teaser"><!-- %<teaser>% --><!-- %</teaser>% --></p>
+                        <p><!-- %<content>% --><!-- %</content>% --></p>
+                        <ul class="hashtags">
+                            <!-- %<hashtags>% -->
+                                <li><a href="#<!-- %<link>% --><!-- %</link>% -->" target="_blank"><!-- %<text>% --><!-- %</text>% --></a></li>
+                            <!-- %</hashtags>% -->
+                        </ul>
+                    </div>
+                </div>
+                <!-- %</blocks>% -->
+                <div class="row">
+                    <!-- %<blocks>% -->
+                        <div class="col-md-2 block">
+                            <h4><!-- %<title>% --><!-- %</title>% --></h4>
+                            <p><!-- %<teaser>% --><!-- %</teaser>% --></p>
+                            <a href="#" target="_blank">more &rarr;</a>
+                        </div>
+                    <!-- %</blocks>% -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="footer-container text-center">
+        <p class="text-muted"><!-- %<title>% --><!-- %</title>% --> | <!-- %<description>% --><!-- %</description>% --></p>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

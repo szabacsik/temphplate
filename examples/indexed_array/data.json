@@ -1,0 +1,33 @@
+{
+  "title": "JSON Indexed Array",
+  "team": [{
+    "first-name": "John",
+    "last-name": "Doe",
+    "phone-number": "+98 765 4321",
+    "email-address": "john.doe@example.com",
+    "skills": ["Strategy", "Statistics"],
+    "favorites": [{
+      "colors": ["Red", "Green", "Blue"],
+      "foods": ["Steak", "Mushrooms"],
+      "movies": ["The Godfather", "Pulp Fiction", "2001: A Space Odyssey", "Citizen Kane"]
+    }]
+  }, {
+    "first-name": "Anna",
+    "last-name": "Smith",
+    "phone-number": "+87 654 3210",
+    "email-address": "anna.smith@example.com",
+    "skills": ["Budgeting", "Financials", "Staffing"],
+    "favorites": [{
+      "colors": ["Yellow", "Orange"],
+      "foods": ["Pineapple", "Watermelon", "Ice Cream", "Candy"],
+      "movies": ["City of God", "Casablanca"]
+    }]
+  }, {
+    "first-name": "Peter",
+    "last-name": "Jones",
+    "phone-number": "+76 543 2109",
+    "email-address": "peter.jones@example.com",
+    "skills": ["Risk Analysis", "Human Resources", "Outsourcing", "Project Planning"],
+    "favorites": ""
+  }]
+}

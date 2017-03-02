@@ -1,0 +1,9 @@
+{
+  "title": "Basic JSON Object",
+  "person": {
+    "first-name": "John",
+    "last-name": "Doe",
+    "phone-number": "+98 765 4321",
+    "email-address": "john.doe@example.com"
+  }
+}

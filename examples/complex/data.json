@@ -1,0 +1,171 @@
+{
+  "title": "Phasellus",
+  "author": "András Szabácsik",
+  "keywords": "json,template,placeholder",
+  "description": "Phasellus non cursus odio, et condimentum nibh. Duis auctor urna id eros dapibus, sed dictum purus finibus.",
+  "menu": [{
+    "text": "Lorem",
+    "link": "#lorem",
+    "li_attributes": "",
+    "a_attributes": "",
+    "submenu": ""
+  }, {
+    "text": "Ipsum",
+    "link": "#ipsum",
+    "li_attributes": "",
+    "a_attributes": "",
+    "submenu": ""
+  }, {
+    "text": "Dolor",
+    "link": "#dolor",
+    "li_attributes": "",
+    "a_attributes": "",
+    "submenu": ""
+  }, {
+    "text": "Sit",
+    "link": "#sit",
+    "li_attributes": "",
+    "a_attributes": "",
+    "submenu": ""
+  }, {
+    "text": "Amet <span class=\"caret\"></span>",
+    "link": "#",
+    "li_attributes": "class=\"dropdown\"",
+    "a_attributes": "class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\"",
+    "submenu": {
+    "items": [{
+      "text": "Consectetur",
+      "link": "#consectetur",
+      "li_attributes": "",
+      "a_attributes": ""
+    }, {
+      "text": "Adipiscing",
+      "link": "#adipiscing",
+      "li_attributes": "",
+      "a_attributes": ""
+    }, {
+      "text": "Elit",
+      "link": "#elit",
+      "li_attributes": "",
+      "a_attributes": ""
+    }]}
+  }, {
+    "text": "Morbi <span class=\"caret\"></span>",
+    "link": "#",
+    "li_attributes": "class=\"dropdown\"",
+    "a_attributes": "class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\"",
+    "submenu": {
+    "items": [{
+      "text": "Condimentum",
+      "link": "#condimentum",
+      "li_attributes": "",
+      "a_attributes": ""
+    }, {
+      "text": "Molestie",
+      "link": "#molestie",
+      "li_attributes": "",
+      "a_attributes": ""
+    }]}
+  }],
+  "blocks": [{
+    "title": "Lorem Ipsum",
+    "teaser": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum molestie diam, ut iaculis felis lobortis hendrerit. Curabitur eget ante auctor, semper metus non, malesuada mi. Nam dapibus quam commodo dignissim ullamcorper. Suspendisse vestibulum, ipsum ut lobortis aliquet, orci nisi rutrum ante, quis scelerisque erat diam quis nulla. Aliquam non nisi nec ligula bibendum sodales. Nam id vestibulum dolor, in viverra elit. Ut finibus tortor vulputate ligula aliquet facilisis. Curabitur a tempor odio.",
+    "hashtags": [{
+      "text": "one",
+      "link": "one"
+    }, {
+      "text": "two",
+      "link": "two"
+    }, {
+      "text": "three",
+      "link": "three"
+    }],
+    "fragment": "lorem"
+  }, {
+    "title": "Donec Vitae",
+    "teaser": "Donec vitae volutpat massa.",
+    "content": "Donec vitae volutpat massa. Vivamus est purus, rhoncus nec sem ut, pharetra varius arcu. Cras scelerisque turpis pulvinar, iaculis ex non, tincidunt lacus. Morbi vel nisi dictum erat gravida pellentesque at nec mauris. Nunc vitae neque tempor, finibus dui id, efficitur augue. Aenean interdum ligula id leo vestibulum finibus. Nulla congue nibh iaculis ex vestibulum, ac interdum tellus dapibus. Phasellus feugiat magna sed augue aliquet, et ornare mauris vulputate. Phasellus euismod metus et consequat tristique. Duis sagittis arcu a purus volutpat, vitae dignissim risus dictum. Pellentesque in dui at ligula maximus luctus. Nullam condimentum ipsum consectetur orci placerat, quis volutpat tortor mattis.",
+    "hashtags": [{
+      "text": "two",
+      "link": "two"
+    }, {
+      "text": "four",
+      "link": "four"
+    }, {
+      "text": "six",
+      "link": "six"
+    }],
+    "fragment": "donec"
+  }, {
+    "title": "Nullam eu tempus",
+    "teaser": "Nullam eu tempus risus, et lobortis felis.",
+    "content": "Nullam eu tempus risus, et lobortis felis. Etiam pellentesque tristique gravida. Suspendisse eget cursus nisi, quis sagittis tellus. Aenean nec scelerisque velit. Nunc commodo magna et elit lobortis porttitor. Proin non urna eu tortor elementum lobortis. Sed vitae aliquet purus, ac tristique turpis. Proin pulvinar ante ac convallis pellentesque. Praesent dolor enim, rutrum at lorem eu, ornare venenatis turpis.",
+    "hashtags": [{
+      "text": "five",
+      "link": "five"
+    }, {
+      "text": "ten",
+      "link": "ten"
+    }],
+    "fragment": "nullam"
+  }, {
+    "title": "Duis ut",
+    "teaser": "Duis ut purus lorem. Suspendisse sagittis neque.",
+    "content": "Duis ut purus lorem. Suspendisse sagittis neque at mi hendrerit eleifend. Sed posuere cursus tellus, ultricies luctus lorem viverra ac. Nulla sit amet suscipit felis. Nam consequat mauris luctus viverra varius. Aliquam eget consequat diam. Nullam rhoncus ex ac mattis vulputate. Mauris quis placerat diam. Quisque ac mauris nec lorem faucibus ullamcorper in vel dui.",
+    "hashtags": [{
+      "text": "one",
+      "link": "one"
+    }, {
+      "text": "three",
+      "link": "three"
+    }, {
+      "text": "five",
+      "link": "five"
+    }, {
+      "text": "seven",
+      "link": "seven"
+    }],
+    "fragment": "nullam"
+  }, {
+    "title": "Ut bibendum",
+    "teaser": "Ut bibendum, nisi id maximus bibendum, turpis nisi iaculis mauris.",
+    "content": "Ut bibendum, nisi id maximus bibendum, turpis nisi iaculis mauris, in iaculis arcu nunc eget neque. Aliquam quis mattis dui, ac aliquet lorem. Sed molestie sodales orci, vitae tristique ipsum venenatis eget. Vestibulum cursus quam a sem lacinia sagittis. Nulla tempor, eros id imperdiet consectetur, neque mi bibendum nibh, et ultricies risus felis vel lacus. Fusce in massa sit amet felis fermentum eleifend vel nec purus. Donec leo erat, congue vitae neque quis, iaculis sagittis elit. Praesent in lacus a lorem pulvinar varius sit amet in elit. Praesent eu dictum nisl. Vivamus leo mauris, ultricies vitae tortor ac, dictum lacinia mauris. Sed at faucibus sapien, eu scelerisque elit.",
+    "hashtags": [{
+      "text": "ten",
+      "link": "ten"
+    }, {
+      "text": "twenty",
+      "link": "twenty"
+    }, {
+      "text": "thirty",
+      "link": "thirty"
+    }],
+    "fragment": "nullam"
+  }, {
+    "title": "Ut tincidunt",
+    "teaser": "Ut tincidunt metus sed sapien porttitor, vel ullamcorper justo venenatis.",
+    "content": "Ut tincidunt metus sed sapien porttitor, vel ullamcorper justo venenatis. Nunc a ultrices ante, vel pretium ligula. Phasellus pharetra sit amet metus ac faucibus. Fusce pharetra metus sed lectus pharetra, id luctus nunc sollicitudin. Donec lectus diam, euismod ut suscipit eget, lobortis nec mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce gravida a tellus non congue. Curabitur eleifend sodales urna et ultrices. Phasellus luctus enim at nibh blandit condimentum. Maecenas consectetur enim et feugiat dictum. Nulla eros mauris, consectetur in est sit amet, pharetra posuere orci. Quisque ornare dignissim ipsum, ac facilisis libero placerat quis. Maecenas gravida dapibus arcu, vel ultricies ex luctus eget. Phasellus auctor risus vitae ante pretium, eu accumsan nulla pharetra. Vivamus nec posuere nisi. Aliquam ut placerat metus.",
+    "hashtags": "",
+    "fragment": "nullam"
+  }],
+  "sidebars": [{
+    "title": "Nam mattis",
+    "content": "Nam mattis sagittis luctus. Ut ornare eget purus vitae suscipit. Aenean massa nisl, eleifend at mi id, vehicula posuere lacus. In quis felis eu urna gravida volutpat sit amet vitae dui."
+  }, {
+    "title": "Ut porttitor",
+    "content": "Ut porttitor, lacus non congue viverra, quam ex semper erat, eget aliquet eros mi sollicitudin sapien."
+  }, {
+    "title": "Praesent",
+    "content": "Praesent vel mi ullamcorper, vestibulum purus id, consectetur augue. Vivamus a magna vitae orci lobortis sagittis."
+  }, {
+    "title": "Etiam",
+    "content": "Etiam egestas risus ultricies urna venenatis, a tristique mi dictum."
+  }, {
+    "title": "In vehicula eros",
+    "content": "In vehicula eros ac nisi aliquet tristique. Sed est arcu, vulputate in mi quis, interdum commodo arcu. Duis in ante condimentum, luctus odio fringilla, aliquam velit. Vivamus non vulputate diam."
+  }],
+  "products": [{
+    "category": "Computer"
+  }]
+}
